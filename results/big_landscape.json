@@ -1,0 +1,38 @@
+{
+ "U_star": 0.9448213391125679,
+ "U_min": 0.5510261292727423,
+ "U_mean": 0.7767974216527503,
+ "U_sd_true": 0.06866252301447615,
+ "sigma": 0.06601272254517272,
+ "ratio": 0.9614083439849018,
+ "sigma_q10_q90": [
+  0.0233898342163167,
+  0.0855266886266861
+ ],
+ "lo_r1": 34,
+ "lo_r2": 4,
+ "within2pct": 14,
+ "twin_pearson": 0.8814225003857253,
+ "twin_spearman": 0.874600182837422,
+ "twin_bias": 0.01797127469659388,
+ "twin_mae": 0.030819980643129914,
+ "argmax": "0111010111",
+ "pass_means": [
+  0.7787679865352035,
+  0.7764268023114755,
+  0.7791347821635027,
+  0.7728601156008195
+ ],
+ "retried": 1,
+ "n_tests": 4096,
+ "sec_per_test": 2.373905897140503,
+ "bootstrap_same_best": 0.004,
+ "twin_argmax_value_pct": 94.39979899352004,
+ "twin_argmax_ties": 32,
+ "twin_argmax_value_min_pct": 85.72163591484244,
+ "twin_argmax_value_max_pct": 98.83112766347712,
+ "twin_argmax_rank_median": 60.5,
+ "twin_argmax_rank_min": 5,
+ "twin_argmax_rank_max": 355,
+ "twin_top10_best_pct": 98.4027789244346
+}
