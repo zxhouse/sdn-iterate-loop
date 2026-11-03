@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "Prototype, Test, Re-Test: companion code and data"
+type: software
+license: MIT
+authors:
+  - family-names: Kuraś
+    given-names: Paweł
+    affiliation: "AGH University of Krakow"
+  - family-names: Bolanowski
+    given-names: Marek
+    affiliation: "Rzeszów University of Technology"
+  - family-names: Biernacka
+    given-names: Edyta
+    affiliation: "AGH University of Krakow"
+  - family-names: Organiściak
+    given-names: Patryk
+    affiliation: "Rzeszów University of Technology"
+  - family-names: Turek
+    given-names: Anna
+    affiliation: "Rzeszów University of Technology"
+  - family-names: Gerka
+    given-names: Alicja
+    affiliation: "Rzeszów University of Technology"
+  - family-names: Gacek
+    given-names: Maciej
+    affiliation: "University of Information Technology and Management in Rzeszów"
+  - family-names: Łazarski
+    given-names: Mariusz
+    affiliation: "WSB-NLU University, Nowy Sącz"
+  - family-names: Misiura
+    given-names: Faustyna
+    affiliation: "Jan Grodek State University in Sanok"
+  - family-names: Michura-Mika
+    given-names: Katarzyna
+    affiliation: "Kozminski University"
+preferred-citation:
+  type: article
+  title: "Prototype, Test, Re-Test: Convergence Conditions and Testbed Evidence for Design-Thinking Iteration in Software-Defined Network Configuration"
+  journal: "Network"
+  year: 2026
+  authors:
+    - family-names: Kuraś
+      given-names: Paweł
+    - family-names: Bolanowski
+      given-names: Marek
+    - family-names: Biernacka
+      given-names: Edyta
+    - family-names: Organiściak
+      given-names: Patryk
+    - family-names: Turek
+      given-names: Anna
+    - family-names: Gerka
+      given-names: Alicja
+    - family-names: Gacek
+      given-names: Maciej
+    - family-names: Łazarski
+      given-names: Mariusz
+    - family-names: Misiura
+      given-names: Faustyna
+    - family-names: Michura-Mika
+      given-names: Katarzyna

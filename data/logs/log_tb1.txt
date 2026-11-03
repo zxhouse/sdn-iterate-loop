@@ -1,0 +1,38 @@
+{
+ "n_configs": 1024,
+ "reps_min": 5,
+ "reps_max": 5,
+ "U_star": 0.8155286978975621,
+ "argmax": 955,
+ "U_mean": 0.6237307061604102,
+ "U_sd_raw": 0.09501686236558854,
+ "U_sd_true": 0.0886732184960795,
+ "sigma_pooled": 0.07633034964376034,
+ "sigma_min": 0.006831005452045394,
+ "sigma_max": 0.23301590001316722,
+ "sigma_q10_q90": [
+  0.0301020698655915,
+  0.11140960228715388
+ ],
+ "ratio": 0.8608049977021544,
+ "corr_sd_mean": -0.1513090814192498,
+ "twin_pearson": 0.7970470561620103,
+ "twin_spearman": 0.7666230844539017,
+ "twin_bias": 0.022031095907422235,
+ "twin_mae": 0.04634377650931516,
+ "twin_argmax_value_pct": 90.9968583715069,
+ "twin_argmax_rank": 85,
+ "twin_top10_best_pct": 93.38493732134525,
+ "local_optima_r1": 48,
+ "local_optima_r2": 8,
+ "bootstrap_argmax_share": 0.316,
+ "bootstrap_n_distinct_argmax": 42,
+ "sigma_T": 0.09314221134143495,
+ "sigma_L": 0.14280467434776337,
+ "wall_seconds_per_test": 1.970942735671997
+}
+landscape done in 9 s
+100 {'random': np.float64(0.9163), 'hill': np.float64(0.9104), 'eps': np.float64(0.9289), 'ucb': np.float64(0.9459), 'ucb_screen': np.float64(0.9513), 'thompson': np.float64(0.9274), 'measure_once': np.float64(0.9369), 'twin_only': np.float64(0.91), 'twin_validate': np.float64(0.9171), 'loop_blind': np.float64(0.9261), 'loop': np.float64(0.9581), 'loop_twinstart': np.float64(0.965)}
+200 {'random': np.float64(0.931), 'hill': np.float64(0.9281), 'eps': np.float64(0.9465), 'ucb': np.float64(0.9666), 'ucb_screen': np.float64(0.9667), 'thompson': np.float64(0.9486), 'measure_once': np.float64(0.9463), 'twin_only': np.float64(0.91), 'twin_validate': np.float64(0.9232), 'loop_blind': np.float64(0.9517), 'loop': np.float64(0.9745), 'loop_twinstart': np.float64(0.9774)}
+300 {'random': np.float64(0.9382), 'hill': np.float64(0.9368), 'eps': np.float64(0.958), 'ucb': np.float64(0.9786), 'ucb_screen': np.float64(0.9745), 'thompson': np.float64(0.9574), 'measure_once': np.float64(0.9569), 'twin_only': np.float64(0.91), 'twin_validate': np.float64(0.9267), 'loop_blind': np.float64(0.9619), 'loop': np.float64(0.9842), 'loop_twinstart': np.float64(0.9803)}
+policies_testbed done in 154 s

@@ -1,0 +1,17 @@
+100 {'random': np.float64(0.9163), 'hill': np.float64(0.9104), 'eps': np.float64(0.9289), 'ucb': np.float64(0.946), 'ucb_screen': np.float64(0.9618), 'thompson': np.float64(0.9274), 'measure_once': np.float64(0.9369), 'twin_only': np.float64(0.91), 'twin_validate': np.float64(0.9171), 'loop_blind': np.float64(0.9261), 'loop': np.float64(0.9581), 'loop_twinstart': np.float64(0.965)}
+200 {'random': np.float64(0.931), 'hill': np.float64(0.9281), 'eps': np.float64(0.9465), 'ucb': np.float64(0.965), 'ucb_screen': np.float64(0.9743), 'thompson': np.float64(0.9486), 'measure_once': np.float64(0.9463), 'twin_only': np.float64(0.91), 'twin_validate': np.float64(0.9232), 'loop_blind': np.float64(0.9517), 'loop': np.float64(0.9745), 'loop_twinstart': np.float64(0.9774)}
+300 {'random': np.float64(0.9382), 'hill': np.float64(0.9368), 'eps': np.float64(0.958), 'ucb': np.float64(0.9734), 'ucb_screen': np.float64(0.9819), 'thompson': np.float64(0.9574), 'measure_once': np.float64(0.9569), 'twin_only': np.float64(0.91), 'twin_validate': np.float64(0.9267), 'loop_blind': np.float64(0.9619), 'loop': np.float64(0.9842), 'loop_twinstart': np.float64(0.9803)}
+policies_testbed_mid done in 134 s
+tb 0.5 {0.5: 0.9809, 1: 0.9884, 2: 0.9863, 3: 0.9886, 4: 0.9841, 5: 0.9628}
+tb 1.0 {0.5: 0.9764, 1: 0.9802, 2: 0.9823, 3: 0.9814, 4: 0.972, 5: 0.9556}
+tb 2.0 {0.5: 0.9543, 1: 0.9558, 2: 0.9475, 3: 0.937, 4: 0.9188, 5: 0.8969}
+zoo tm {0.5: 0.9985, 1: 0.9986, 2: 0.9984, 3: 0.9976, 4: 0.9963, 5: 0.9951}
+zoo mid {0.5: 0.9971, 1: 0.996, 2: 0.9927, 3: 0.9906, 4: 0.9881, 5: 0.9844}
+zoo high {0.5: 0.9957, 1: 0.9946, 2: 0.9899, 3: 0.9824, 4: 0.9803, 5: 0.9684}
+allocation done in 440 s
+tb {'baseline': 0.9834, 'r_max=1': 0.9718, 'r_max=3': 0.9859, 'unbounded': 0.986, 'ideas=1': 0.9631, 'ideas=15': 0.9825, 'no_screen': 0.9663, 'memory=1': 0.9535, 'memory=3': 0.9722, 'all_new': 0.9519, 'no_rotation': 0.9847}
+zoo {'baseline': 0.9959, 'r_max=1': 0.9951, 'r_max=3': 0.9966, 'unbounded': 0.9921, 'ideas=1': 0.9892, 'ideas=15': 0.9968, 'no_screen': 0.9888, 'memory=1': 0.9965, 'memory=3': 0.997, 'all_new': 0.9833, 'no_rotation': 0.996}
+ablation done in 119 s
+tb sigma 0.07633034964376034 {0: 0.9828, 0.25: 0.983, 0.5: 0.9809, 1.0: 0.9652, 1.5: 0.943, 2.0: 0.9238, 3.0: 0.8974}
+zoo {0: 0.9961, 0.25: 0.9962, 0.5: 0.996, 1.0: 0.9965, 1.5: 0.9956, 2.0: 0.9935, 3.0: 0.9878}
+bias done in 41 s

@@ -1,0 +1,45 @@
+noise tm
+  tuned hill 2 0.9958
+  tuned eps 0.5 0.9983
+  tuned ucb (0.0125, 2) 0.9986
+  tuned ucb_screen (0.0125, 3) 0.9994
+  tuned thompson 3 0.9981
+  tuned twin_validate 10 0.9996
+noise mid
+  tuned hill 2 0.9847
+  tuned eps 0.3 0.9927
+  tuned ucb (0.0125, 2) 0.9931
+  tuned ucb_screen (0.025, 3) 0.998
+  tuned thompson 5 0.9923
+  tuned twin_validate 20 0.9995
+noise high
+  tuned hill 2 0.9818
+  tuned eps 0.3 0.9885
+  tuned ucb (0.05, 2) 0.9882
+  tuned ucb_screen (0.025, 5) 0.9973
+  tuned thompson 5 0.9866
+  tuned twin_validate 20 0.9992
+tune done in 82 s
+{'world': 'Abilene_0', 'nodes': 11, 'edges': 14, 'U_star': 0.943961671473545, 'U_sd': 0.06933229747491523, 'sd_tm': 0.008762682744771527, 'lo_r1': 128, 'lo_r2': 64, 'twin_pearson': 0.9979463562210545, 'twin_argmax_pct': 100.0, 'twin0_argmax_pct': 100.0}
+{'world': 'Abilene_1', 'nodes': 11, 'edges': 14, 'U_star': 0.8865968250671468, 'U_sd': 0.06738775280341514, 'sd_tm': 0.01803741573431892, 'lo_r1': 256, 'lo_r2': 256, 'twin_pearson': 0.9956107311609462, 'twin_argmax_pct': 100.0, 'twin0_argmax_pct': 100.0}
+{'world': 'Abilene_2', 'nodes': 11, 'edges': 14, 'U_star': 0.969110021526668, 'U_sd': 0.06965487014780422, 'sd_tm': 0.005794374813913075, 'lo_r1': 256, 'lo_r2': 256, 'twin_pearson': 0.9992472418371119, 'twin_argmax_pct': 100.0, 'twin0_argmax_pct': 100.0}
+{'world': 'Cesnet201006_0', 'nodes': 52, 'edges': 63, 'U_star': 0.9261022798305196, 'U_sd': 0.07144734986825395, 'sd_tm': 0.014384565760422288, 'lo_r1': 4, 'lo_r2': 4, 'twin_pearson': 0.996338385631027, 'twin_argmax_pct': 100.0, 'twin0_argmax_pct': 99.18963124483956}
+{'world': 'Cesnet201006_1', 'nodes': 52, 'edges': 63, 'U_star': 0.8954987307277141, 'U_sd': 0.07098553946795932, 'sd_tm': 0.011893529909041094, 'lo_r1': 8, 'lo_r2': 8, 'twin_pearson': 0.9994245822942046, 'twin_argmax_pct': 100.0, 'twin0_argmax_pct': 99.69303780136474}
+{'world': 'Cesnet201006_2', 'nodes': 52, 'edges': 63, 'U_star': 0.9260312241782732, 'U_sd': 0.07138901710786977, 'sd_tm': 0.010119444783861042, 'lo_r1': 16, 'lo_r2': 16, 'twin_pearson': 0.999922227178172, 'twin_argmax_pct': 100.0, 'twin0_argmax_pct': 100.0}
+{'world': 'Garr201201_0', 'nodes': 61, 'edges': 75, 'U_star': 0.9444348557958159, 'U_sd': 0.07806614623924263, 'sd_tm': 0.010742130586484416, 'lo_r1': 64, 'lo_r2': 64, 'twin_pearson': 0.9988099176591676, 'twin_argmax_pct': 100.0, 'twin0_argmax_pct': 100.0}
+{'world': 'Geant2012_0', 'nodes': 40, 'edges': 61, 'U_star': 0.9166884961876712, 'U_sd': 0.07093816783732168, 'sd_tm': 0.009274737277977178, 'lo_r1': 4, 'lo_r2': 4, 'twin_pearson': 0.999548156517311, 'twin_argmax_pct': 99.96126125310391, 'twin0_argmax_pct': 99.96126125310391}
+{'world': 'Geant2012_1', 'nodes': 40, 'edges': 61, 'U_star': 0.9516407713366728, 'U_sd': 0.07240274082575779, 'sd_tm': 0.012028483344111392, 'lo_r1': 12, 'lo_r2': 4, 'twin_pearson': 0.9983184047952556, 'twin_argmax_pct': 99.9234173853497, 'twin0_argmax_pct': 99.9234173853497}
+{'world': 'Geant2012_2', 'nodes': 40, 'edges': 61, 'U_star': 0.9364280093719763, 'U_sd': 0.0717739208882971, 'sd_tm': 0.012520751025407405, 'lo_r1': 12, 'lo_r2': 6, 'twin_pearson': 0.996455010568109, 'twin_argmax_pct': 99.89140362220854, 'twin0_argmax_pct': 99.53674863287458}
+{'world': 'Janetbackbone_0', 'nodes': 29, 'edges': 45, 'U_star': 0.9699517858369047, 'U_sd': 0.0720275580129452, 'sd_tm': 0.009998869038170821, 'lo_r1': 14, 'lo_r2': 3, 'twin_pearson': 0.995894570724729, 'twin_argmax_pct': 99.8507857510259, 'twin0_argmax_pct': 99.74169420977192}
+{'world': 'Janetbackbone_1', 'nodes': 29, 'edges': 45, 'U_star': 0.9187119202003513, 'U_sd': 0.0750368830551536, 'sd_tm': 0.013342451116084215, 'lo_r1': 2, 'lo_r2': 2, 'twin_pearson': 0.995696561945632, 'twin_argmax_pct': 100.0, 'twin0_argmax_pct': 100.0}
+{'world': 'Janetbackbone_2', 'nodes': 29, 'edges': 45, 'U_star': 0.9603157037714558, 'U_sd': 0.07299879821312713, 'sd_tm': 0.013382553175473133, 'lo_r1': 5, 'lo_r2': 1, 'twin_pearson': 0.9929839578598789, 'twin_argmax_pct': 99.07138574875677, 'twin0_argmax_pct': 99.38013292558023}
+{'world': 'Nsfnet_0', 'nodes': 13, 'edges': 15, 'U_star': 0.9554246627801497, 'U_sd': 0.07224100764508773, 'sd_tm': 0.010960183493165543, 'lo_r1': 8, 'lo_r2': 4, 'twin_pearson': 0.9961538273077211, 'twin_argmax_pct': 99.08907659732105, 'twin0_argmax_pct': 100.0}
+{'world': 'Nsfnet_1', 'nodes': 13, 'edges': 15, 'U_star': 0.9129933008592724, 'U_sd': 0.06679745063074373, 'sd_tm': 0.01553756372669586, 'lo_r1': 24, 'lo_r2': 8, 'twin_pearson': 0.9898025587014507, 'twin_argmax_pct': 99.72185494113951, 'twin0_argmax_pct': 99.72185494113951}
+{'world': 'Nsfnet_2', 'nodes': 13, 'edges': 15, 'U_star': 0.9602786204826687, 'U_sd': 0.0701140498160109, 'sd_tm': 0.005886781965472506, 'lo_r1': 256, 'lo_r2': 256, 'twin_pearson': 0.9967415483104567, 'twin_argmax_pct': 99.92915652916606, 'twin0_argmax_pct': 99.92915652916606}
+{'world': 'PionierL3_0', 'nodes': 38, 'edges': 45, 'U_star': 0.9301102193168747, 'U_sd': 0.07118550772701376, 'sd_tm': 0.010204040070683946, 'lo_r1': 16, 'lo_r2': 16, 'twin_pearson': 0.9999329638376535, 'twin_argmax_pct': 99.89742496851677, 'twin0_argmax_pct': 99.89742496851677}
+{'world': 'PionierL3_1', 'nodes': 38, 'edges': 45, 'U_star': 0.9397004669348428, 'U_sd': 0.07300749978748734, 'sd_tm': 0.01352436229573294, 'lo_r1': 4, 'lo_r2': 1, 'twin_pearson': 0.996712334121263, 'twin_argmax_pct': 99.53561305608248, 'twin0_argmax_pct': 99.94339303180264}
+{'world': 'PionierL3_2', 'nodes': 38, 'edges': 45, 'U_star': 0.9658995168606774, 'U_sd': 0.0739804130831815, 'sd_tm': 0.012589835619635751, 'lo_r1': 48, 'lo_r2': 16, 'twin_pearson': 0.9923156433551854, 'twin_argmax_pct': 95.8530906273099, 'twin0_argmax_pct': 99.97518220424242}
+{'world': 'Renater2010_0', 'nodes': 43, 'edges': 56, 'U_star': 0.9578282383953545, 'U_sd': 0.07187027330362028, 'sd_tm': 0.01459841214792786, 'lo_r1': 4, 'lo_r2': 1, 'twin_pearson': 0.9958306326559893, 'twin_argmax_pct': 99.84940701973461, 'twin0_argmax_pct': 100.0}
+{'world': 'Renater2010_1', 'nodes': 43, 'edges': 56, 'U_star': 0.9544582139801145, 'U_sd': 0.0739591366268233, 'sd_tm': 0.013766656379118142, 'lo_r1': 76, 'lo_r2': 8, 'twin_pearson': 0.9947388067744596, 'twin_argmax_pct': 97.58044798150428, 'twin0_argmax_pct': 99.02132426192442}
+{'world': 'Renater2010_2', 'nodes': 43, 'edges': 56, 'U_star': 0.9443012275444698, 'U_sd': 0.06716691163837675, 'sd_tm': 0.00969987067262982, 'lo_r1': 32, 'lo_r2': 32, 'twin_pearson': 0.9959869324755511, 'twin_argmax_pct': 99.4277209329888, 'twin0_argmax_pct': 99.4277209329888}
+zoo_stats done in 0 s
